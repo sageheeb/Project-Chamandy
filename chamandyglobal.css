@@ -1,0 +1,117 @@
+/* Project Chamandy CSS File */
+
+ body { 
+       font-family: Times New Roman;
+       font-size: 12px;
+       line-height: 1.5;
+       margin: 0;
+       padding: 0;
+       background: #4682B4;
+     }
+
+h1, h2, h3 { font-family: times new roman, garamond, serif;  
+              font-weight: normal ; }
+h1 {font-size: 160% ; }
+
+h2 {font-size: 130% ; }
+
+h3 {font-size: 100% ; }
+
+h4 {font-size: 115% ; }
+
+h5 {font-size: 115% ; }
+
+h6 {font-size: 70% ; }
+
+p, h1, h2, h3, h4, h5, h6, ol, ul { margin-top: 0;
+                         margin-bottom: 1px; }
+
+ol {padding-left: 0;
+    margin-left: 30px; }
+
+img {padding: 4px;
+     border: none ;
+     background-color: White  ; }
+
+a { color: #1F233B;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid #1F233B;
+    padding-bottom: 1px; }
+
+a:visited {color: #D0A933; }
+
+a:hover, a:focus a:active {background-color: #4682B4;
+                           color: #D0A933;
+                           border-bottom-color: #D0A933; }
+
+div#wrapper  { width: 728px;
+               margin-left: auto;
+               margin-right: auto;
+               margin-top: 10px;
+               margin-bottom: 10px;
+               background-color: #ADD8E6;
+               background-image: none ; 
+               border: 2px solid #191970;
+               min-height: 100% ; }
+
+header  { height: 90px;
+          margin-bottom: 20px; }
+
+header h1, header p {text-indent: -99999999px; }
+
+
+.home header { background: white url(images/pchamandyhomebanner.png) no-repeat; }
+
+.history header { background: white url(images/chahistorybanner.png) no-repeat; }
+
+.news header { background: white url(images/chanews.png) no-repeat; }
+
+article {float: left ; 
+         width: 500px ;
+         padding-left: 10px ;
+         clear: left ; }
+
+nav {float: right ;
+     width: 200px ;
+     padding-right: 5px;
+     clear: right ; }
+
+footer { clear: both ;
+         padding: 10px ;
+         font-size: 75% ;
+         height: 1% ;
+         background-color: #CCA339 ;
+         color: #1F283B ;
+         border-top: 2px solid #1F283B ; }
+
+nav ul { list-style-type: none ;
+         border: 2px solid #191970 ;
+         margin-left: 0 ;
+         padding-left: 2px ;
+         border-bottom: 2px solid #191970 ;
+         background-color: #1F283B ;
+         display: block ; 
+         line-height: 2;
+         height: 1% ; }
+
+div#entries {float: left ; 
+         width: 500px ;
+         padding-left: 10px ;
+         border: 2px solid #191970 ;
+         background-color: #FFFBE5 ;
+         margin-top: 25px ;
+         margin-bottom: 25px ;
+         margin-left: 10px ;
+         margin-right: 25px ;  }
+
+
+
+
+
+
+
+
+
+
+
